@@ -1,12 +1,10 @@
 # Attrition-Analysis
-
+A class Project on Company Attrition.
 
 ## Outline
 ## [Project Overview](#project-overview)
 ## [Data Sources](#data-sources)
 ## [Tools Used](#tools-used)
-## [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-## [Exploratory Data Analysis](#exploratory-data-analysis)
 ## [Data Analysis](#data-analysis)
 ## [Results/Insights](#Results/Insights)
 
@@ -30,10 +28,6 @@ Dataset has 1470 rows and 41 columns
 - Power BI
     1. This is the major tool used for analysis
     2. The tool used for visualization
- 
-### Data Cleaning and Preparation
----
-The data shared had already been cleaned.
 
 
 ### Exploratory Data Analysis
@@ -50,49 +44,36 @@ This was used to calculate the Attrition Rate
 ```
 Attrition Rate = sum(Table1[Attrition Count])/sum(Table1[Employee Count]) 
 ```
+
 ### Results/Insights
 ---
-From the data shared and the charts created;
-1. The sum of revenue in the different regions, stores and market was analysed which amounted to 73.03B
+This has been detailed and documented in the Report uploaded
+An Overview;
+1. The Sum of Monthly income is 10M
+2. Total Number of Employees is 1470
+3. Attrition Count is 237
+4. Departments;
+   - R&D
+   - Sales
+   - HR
+5. Education Field;
+   - Human Resources
+   - Technical Degree
+   - Medical
+   - Life Sciences
+   - Marketing
+   - Others
+6. The Average Employee age is 37
+7. The attrition rate is 16.12%
 
-2. Profit generation shows that the year 2014 had better sales compared to 2015.
-- Total Sales in 2014: 48.46B
-- Total Sales in 2015: 28.57B
-
-The low sales in 2015 was due to the fact that the revenue was only generated from Jan to June,
-whereas 2014 had revenue which ran through the entire months of the year.
-
-4. line of businesses;
-   - Service Plan
-   - Printer Sales
-   - Parts
-   - Copier Sale
-
-6. Category of Days;
-   - Work day
-   - Local holiday
-   - Observance
-   - Season
-   - Public holiday
-  
-7. The total number of stores is 132
-8. There were 9 different models
-
-#### Business Decisions
----
-1. Unique Regional Strategies: A region-specific strategy can be adopted. High-performing regions (e.g., North East) made great revenue, while regions (e.g., the North-Central) had low revenue. This strategy can enable all regions to be equally focsed on.
-
-2. Capitalizing on the Day Category: From the charts, we analysed that the Work day had the highest number markets and the Local holiday had the least, this implies the work day will have higher revenue.
-
-#### Key Points:
-1. Understanding regional performance and adapting strategies to specific stores can unlock hidden growth potential.
-2. Understanding the seasons i.e the day category can drive customer engagement and maximize revenue.
 
 #### Problem Statement
-Revenue generation is a core part of any business. This generation is influenced by a number of factors, which include the regions, markets, stores, etc. There have been issues about revenue generation in the company by region, where certain regions were generating income than others. This analysis provides insight to solve the issue with respect to day category and its effect on the revenue. 
+The company is experiencing an attrition rate of 16.12%, analysis indicates that primary drivers include environment satisfaction, performance rating , and dissatisfaction with work-life balance. This is impacting productivity, team morale, and operational efficiency.. 
 
 #### Recommendations
-By leveraging data on regions, markets, stores, day category, we can see the result in the charts.
-Understanding the data can lead to higher revenue generation across regions.
+1. Improve Work-Life Balance:
+   - Introduce flexible working arrangements (e.g., remote work, hybrid).
+2. Work on Employee Engagement:
+   - Conduct regular feedback sessions and act on suggestions.
 
 
