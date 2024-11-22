@@ -48,7 +48,7 @@ Attrition Rate = sum(Table1[Attrition Count])/sum(Table1[Employee Count])
 ### Results/Insights
 ---
 This has been detailed and documented in the Report uploaded
-An Overview;
+- An Overview;
 1. The Sum of Monthly income is 10M
 2. Total Number of Employees is 1470
 3. Attrition Count is 237
